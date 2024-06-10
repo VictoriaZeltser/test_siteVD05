@@ -1,0 +1,21 @@
+body {
+    background-color: #f3e6f5;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #d8bfd8 !important;
+}
+
+.jumbotron {
+    background-color: #e6e6fa;
+    color: #4b0082;
+}
+
+/* Уменьшение размера изображений в карусели */
+.carousel-item img {
+    height: 400px;
+    width: auto;
+    object-fit: cover;
+    object-position: center;
+}
